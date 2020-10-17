@@ -15,7 +15,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   while i < valid_calls.length
     if planeteer_calls.include? (valid_calls[i]) 
-      puts valid_calls[i]
+      return valid_calls[i]
       break
     else
       i += 1
